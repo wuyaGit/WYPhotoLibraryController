@@ -15,8 +15,8 @@
 		85B65C561FF3DDFD00FEE2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C551FF3DDFD00FEE2E1 /* main.m */; };
 		85B65C601FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C5F1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m */; };
 		85B65C6B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C6A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m */; };
-		85B65C7D1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */; };
-		85B65C7E1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */; };
+		85B65C831FF3F04200FEE2E1 /* WYPhotoLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C801FF3F04200FEE2E1 /* WYPhotoLibrary.bundle */; };
+		85B65C841FF3F04200FEE2E1 /* WYPhotoLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C821FF3F04200FEE2E1 /* WYPhotoLibraryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		85B65C661FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPhotoLibraryControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B65C6A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryControllerUITests.m; sourceTree = "<group>"; };
 		85B65C6C1FF3DDFD00FEE2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryController.m; sourceTree = "<group>"; };
-		85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYPhotoLibrary.bundle; sourceTree = "<group>"; };
-		85B65C7C1FF3DE9600FEE2E1 /* WYPhotoLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPhotoLibraryController.h; sourceTree = "<group>"; };
+		85B65C801FF3F04200FEE2E1 /* WYPhotoLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYPhotoLibrary.bundle; sourceTree = "<group>"; };
+		85B65C811FF3F04200FEE2E1 /* WYPhotoLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPhotoLibraryController.h; sourceTree = "<group>"; };
+		85B65C821FF3F04200FEE2E1 /* WYPhotoLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				85B65C471FF3DDFD00FEE2E1 /* AppDelegate.m */,
 				85B65C491FF3DDFD00FEE2E1 /* ViewController.h */,
 				85B65C4A1FF3DDFD00FEE2E1 /* ViewController.m */,
-				85B65C791FF3DE5C00FEE2E1 /* Classes */,
+				85B65C7F1FF3F04200FEE2E1 /* Classes */,
 				85B65C781FF3DE0200FEE2E1 /* Resource */,
 			);
 			path = WYPhotoLibraryController;
@@ -146,14 +146,15 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
-		85B65C791FF3DE5C00FEE2E1 /* Classes */ = {
+		85B65C7F1FF3F04200FEE2E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */,
-				85B65C7C1FF3DE9600FEE2E1 /* WYPhotoLibraryController.h */,
-				85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */,
+				85B65C801FF3F04200FEE2E1 /* WYPhotoLibrary.bundle */,
+				85B65C811FF3F04200FEE2E1 /* WYPhotoLibraryController.h */,
+				85B65C821FF3F04200FEE2E1 /* WYPhotoLibraryController.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B65C7E1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle in Resources */,
+				85B65C831FF3F04200FEE2E1 /* WYPhotoLibrary.bundle in Resources */,
 				85B65C531FF3DDFD00FEE2E1 /* LaunchScreen.storyboard in Resources */,
 				85B65C501FF3DDFD00FEE2E1 /* Assets.xcassets in Resources */,
 				85B65C4E1FF3DDFD00FEE2E1 /* Main.storyboard in Resources */,
@@ -290,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B65C7D1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m in Sources */,
+				85B65C841FF3F04200FEE2E1 /* WYPhotoLibraryController.m in Sources */,
 				85B65C4B1FF3DDFD00FEE2E1 /* ViewController.m in Sources */,
 				85B65C561FF3DDFD00FEE2E1 /* main.m in Sources */,
 				85B65C481FF3DDFD00FEE2E1 /* AppDelegate.m in Sources */,
