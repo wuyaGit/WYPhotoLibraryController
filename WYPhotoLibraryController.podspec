@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git", :commit => "e5b9f9eacb2e8a6969290e3ef9deb991dfe5286b" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes"
+  s.source_files  = "Classes", "Classes/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "WYPhotoLibrary.bundle/*.png"
+  s.resources = "Classes/**/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
