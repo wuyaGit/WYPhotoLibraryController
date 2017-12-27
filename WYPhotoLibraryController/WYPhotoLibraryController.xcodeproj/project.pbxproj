@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B65C481FF3DDFD00FEE2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C471FF3DDFD00FEE2E1 /* AppDelegate.m */; };
+		85B65C4B1FF3DDFD00FEE2E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C4A1FF3DDFD00FEE2E1 /* ViewController.m */; };
+		85B65C4E1FF3DDFD00FEE2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C4C1FF3DDFD00FEE2E1 /* Main.storyboard */; };
+		85B65C501FF3DDFD00FEE2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C4F1FF3DDFD00FEE2E1 /* Assets.xcassets */; };
+		85B65C531FF3DDFD00FEE2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C511FF3DDFD00FEE2E1 /* LaunchScreen.storyboard */; };
+		85B65C561FF3DDFD00FEE2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C551FF3DDFD00FEE2E1 /* main.m */; };
+		85B65C601FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C5F1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m */; };
+		85B65C6B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C6A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m */; };
+		85B65C7D1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */; };
+		85B65C7E1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85B65C5C1FF3DDFD00FEE2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B65C3B1FF3DDFD00FEE2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B65C421FF3DDFD00FEE2E1;
+			remoteInfo = WYPhotoLibraryController;
+		};
+		85B65C671FF3DDFD00FEE2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B65C3B1FF3DDFD00FEE2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B65C421FF3DDFD00FEE2E1;
+			remoteInfo = WYPhotoLibraryController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85B65C431FF3DDFD00FEE2E1 /* WYPhotoLibraryController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPhotoLibraryController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B65C461FF3DDFD00FEE2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85B65C471FF3DDFD00FEE2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85B65C491FF3DDFD00FEE2E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85B65C4A1FF3DDFD00FEE2E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85B65C4D1FF3DDFD00FEE2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B65C4F1FF3DDFD00FEE2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B65C521FF3DDFD00FEE2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85B65C541FF3DDFD00FEE2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B65C551FF3DDFD00FEE2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85B65C5B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPhotoLibraryControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B65C5F1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryControllerTests.m; sourceTree = "<group>"; };
+		85B65C611FF3DDFD00FEE2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B65C661FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPhotoLibraryControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B65C6A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryControllerUITests.m; sourceTree = "<group>"; };
+		85B65C6C1FF3DDFD00FEE2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPhotoLibraryController.m; sourceTree = "<group>"; };
+		85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYPhotoLibrary.bundle; sourceTree = "<group>"; };
+		85B65C7C1FF3DE9600FEE2E1 /* WYPhotoLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPhotoLibraryController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B65C401FF3DDFD00FEE2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C581FF3DDFD00FEE2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C631FF3DDFD00FEE2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85B65C3A1FF3DDFD00FEE2E1 = {
+			isa = PBXGroup;
+			children = (
+				85B65C451FF3DDFD00FEE2E1 /* WYPhotoLibraryController */,
+				85B65C5E1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests */,
+				85B65C691FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests */,
+				85B65C441FF3DDFD00FEE2E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85B65C441FF3DDFD00FEE2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C431FF3DDFD00FEE2E1 /* WYPhotoLibraryController.app */,
+				85B65C5B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.xctest */,
+				85B65C661FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B65C451FF3DDFD00FEE2E1 /* WYPhotoLibraryController */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C461FF3DDFD00FEE2E1 /* AppDelegate.h */,
+				85B65C471FF3DDFD00FEE2E1 /* AppDelegate.m */,
+				85B65C491FF3DDFD00FEE2E1 /* ViewController.h */,
+				85B65C4A1FF3DDFD00FEE2E1 /* ViewController.m */,
+				85B65C791FF3DE5C00FEE2E1 /* Classes */,
+				85B65C781FF3DE0200FEE2E1 /* Resource */,
+			);
+			path = WYPhotoLibraryController;
+			sourceTree = "<group>";
+		};
+		85B65C5E1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C5F1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m */,
+				85B65C611FF3DDFD00FEE2E1 /* Info.plist */,
+			);
+			path = WYPhotoLibraryControllerTests;
+			sourceTree = "<group>";
+		};
+		85B65C691FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C6A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m */,
+				85B65C6C1FF3DDFD00FEE2E1 /* Info.plist */,
+			);
+			path = WYPhotoLibraryControllerUITests;
+			sourceTree = "<group>";
+		};
+		85B65C781FF3DE0200FEE2E1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C4C1FF3DDFD00FEE2E1 /* Main.storyboard */,
+				85B65C4F1FF3DDFD00FEE2E1 /* Assets.xcassets */,
+				85B65C511FF3DDFD00FEE2E1 /* LaunchScreen.storyboard */,
+				85B65C541FF3DDFD00FEE2E1 /* Info.plist */,
+				85B65C551FF3DDFD00FEE2E1 /* main.m */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		85B65C791FF3DE5C00FEE2E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85B65C7B1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle */,
+				85B65C7C1FF3DE9600FEE2E1 /* WYPhotoLibraryController.h */,
+				85B65C7A1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B65C421FF3DDFD00FEE2E1 /* WYPhotoLibraryController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B65C6F1FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryController" */;
+			buildPhases = (
+				85B65C3F1FF3DDFD00FEE2E1 /* Sources */,
+				85B65C401FF3DDFD00FEE2E1 /* Frameworks */,
+				85B65C411FF3DDFD00FEE2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPhotoLibraryController;
+			productName = WYPhotoLibraryController;
+			productReference = 85B65C431FF3DDFD00FEE2E1 /* WYPhotoLibraryController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B65C5A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B65C721FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryControllerTests" */;
+			buildPhases = (
+				85B65C571FF3DDFD00FEE2E1 /* Sources */,
+				85B65C581FF3DDFD00FEE2E1 /* Frameworks */,
+				85B65C591FF3DDFD00FEE2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B65C5D1FF3DDFD00FEE2E1 /* PBXTargetDependency */,
+			);
+			name = WYPhotoLibraryControllerTests;
+			productName = WYPhotoLibraryControllerTests;
+			productReference = 85B65C5B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85B65C651FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B65C751FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryControllerUITests" */;
+			buildPhases = (
+				85B65C621FF3DDFD00FEE2E1 /* Sources */,
+				85B65C631FF3DDFD00FEE2E1 /* Frameworks */,
+				85B65C641FF3DDFD00FEE2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B65C681FF3DDFD00FEE2E1 /* PBXTargetDependency */,
+			);
+			name = WYPhotoLibraryControllerUITests;
+			productName = WYPhotoLibraryControllerUITests;
+			productReference = 85B65C661FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B65C3B1FF3DDFD00FEE2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Yangguangliang;
+				TargetAttributes = {
+					85B65C421FF3DDFD00FEE2E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					85B65C5A1FF3DDFD00FEE2E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85B65C421FF3DDFD00FEE2E1;
+					};
+					85B65C651FF3DDFD00FEE2E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85B65C421FF3DDFD00FEE2E1;
+					};
+				};
+			};
+			buildConfigurationList = 85B65C3E1FF3DDFD00FEE2E1 /* Build configuration list for PBXProject "WYPhotoLibraryController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B65C3A1FF3DDFD00FEE2E1;
+			productRefGroup = 85B65C441FF3DDFD00FEE2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B65C421FF3DDFD00FEE2E1 /* WYPhotoLibraryController */,
+				85B65C5A1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests */,
+				85B65C651FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B65C411FF3DDFD00FEE2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B65C7E1FF3DE9600FEE2E1 /* WYPhotoLibrary.bundle in Resources */,
+				85B65C531FF3DDFD00FEE2E1 /* LaunchScreen.storyboard in Resources */,
+				85B65C501FF3DDFD00FEE2E1 /* Assets.xcassets in Resources */,
+				85B65C4E1FF3DDFD00FEE2E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C591FF3DDFD00FEE2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C641FF3DDFD00FEE2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B65C3F1FF3DDFD00FEE2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B65C7D1FF3DE9600FEE2E1 /* WYPhotoLibraryController.m in Sources */,
+				85B65C4B1FF3DDFD00FEE2E1 /* ViewController.m in Sources */,
+				85B65C561FF3DDFD00FEE2E1 /* main.m in Sources */,
+				85B65C481FF3DDFD00FEE2E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C571FF3DDFD00FEE2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B65C601FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B65C621FF3DDFD00FEE2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B65C6B1FF3DDFD00FEE2E1 /* WYPhotoLibraryControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85B65C5D1FF3DDFD00FEE2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B65C421FF3DDFD00FEE2E1 /* WYPhotoLibraryController */;
+			targetProxy = 85B65C5C1FF3DDFD00FEE2E1 /* PBXContainerItemProxy */;
+		};
+		85B65C681FF3DDFD00FEE2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B65C421FF3DDFD00FEE2E1 /* WYPhotoLibraryController */;
+			targetProxy = 85B65C671FF3DDFD00FEE2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85B65C4C1FF3DDFD00FEE2E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B65C4D1FF3DDFD00FEE2E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B65C511FF3DDFD00FEE2E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B65C521FF3DDFD00FEE2E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B65C6D1FF3DDFD00FEE2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85B65C6E1FF3DDFD00FEE2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B65C701FF3DDFD00FEE2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B65C711FF3DDFD00FEE2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85B65C731FF3DDFD00FEE2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPhotoLibraryController.app/WYPhotoLibraryController";
+			};
+			name = Debug;
+		};
+		85B65C741FF3DDFD00FEE2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPhotoLibraryController.app/WYPhotoLibraryController";
+			};
+			name = Release;
+		};
+		85B65C761FF3DDFD00FEE2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYPhotoLibraryController;
+			};
+			name = Debug;
+		};
+		85B65C771FF3DDFD00FEE2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYPhotoLibraryControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xwu.WYPhotoLibraryControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYPhotoLibraryController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B65C3E1FF3DDFD00FEE2E1 /* Build configuration list for PBXProject "WYPhotoLibraryController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B65C6D1FF3DDFD00FEE2E1 /* Debug */,
+				85B65C6E1FF3DDFD00FEE2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B65C6F1FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B65C701FF3DDFD00FEE2E1 /* Debug */,
+				85B65C711FF3DDFD00FEE2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B65C721FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B65C731FF3DDFD00FEE2E1 /* Debug */,
+				85B65C741FF3DDFD00FEE2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B65C751FF3DDFD00FEE2E1 /* Build configuration list for PBXNativeTarget "WYPhotoLibraryControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B65C761FF3DDFD00FEE2E1 /* Debug */,
+				85B65C771FF3DDFD00FEE2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B65C3B1FF3DDFD00FEE2E1 /* Project object */;
+}
