@@ -6,6 +6,7 @@
 
 ### 1.可以使用CocoaPods导入到项目
 
+    platform :ios, '8.0'
     pod 'WYPhotoLibraryController'
     
 ### 2.代码说明
