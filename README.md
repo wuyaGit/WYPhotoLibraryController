@@ -2,11 +2,11 @@
 
 简单的对媒体资源库UI封装。可以根据需要，浏览并选取相册中的相片、视频或全部资源。
 
-主要是对<Photos/Photos.h>基本库的使用。（备注：AssetsLibrary基本库在iOS9以后弃用，苹果建议使用Photos库。）
+主要是对<Photos/Photos.h>库的使用。（备注：AssetsLibrary库在iOS9以后弃用，苹果建议使用Photos库。）
 
 ### 1.可以使用CocoaPods导入到项目
 
-    pod 'WYProgressView'
+    pod 'WYPhotoLibraryController'
     
 ### 2.代码说明
 
