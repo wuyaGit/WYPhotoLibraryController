@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git", :commit => "b9b1723e566a30d40efd926c911af826a152f0c5"   }
+  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
