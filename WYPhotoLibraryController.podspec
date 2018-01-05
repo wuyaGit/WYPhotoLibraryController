@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WYPhotoLibraryController"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "使用PHAsset库选择媒体资源库中的资源"
 
   # This description is used to generate tags and improve search results.
@@ -80,10 +80,10 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git", :tag => version   }
+  s.source       = { :git => "https://github.com/wuyaGit/WYPhotoLibraryController.git", :commit => "b9b1723e566a30d40efd926c911af826a152f0c5"   }
 
 
-  # ――― Source Code:commit => "e5b9f9eacb2e8a6969290e3ef9deb991dfe5286b" ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Classes/**/*.png"
+  s.resources = "Classes/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
